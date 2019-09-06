@@ -1,0 +1,15 @@
+{
+  "name": "get-owned-packages",
+  "version": "1.0.0",
+  "description": "List packages an npm user can write to",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Peter Squicciarini <stripedpajamas273@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "npm-registry-fetch": "^4.0.0"
+  }
+}
