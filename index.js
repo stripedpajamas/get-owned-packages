@@ -9,7 +9,7 @@ const defaultOpts = {
 }
 
 // returns list of packages owned by owner of token
-async function getOwnedPackages (token) {
+exports.getOwnedPackages = async function getOwnedPackages (token) {
   if (!token) throw new Error('token is required')
   const opts = Object.assign({}, defaultOpts, { token })
   const user = await fetch.json(getUserEndpoint(), opts)
@@ -22,5 +22,3 @@ async function getOwnedPackages (token) {
   }
   return output
 }
-
-module.exports = getOwnedPackages

@@ -1,5 +1,5 @@
 const readline = require('readline')
-const getOwnedPackages = require('.')
+const { getOwnedPackages } = require('.')
 
 const rl = readline.createInterface({
   input: process.stdin,
