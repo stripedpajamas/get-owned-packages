@@ -10,6 +10,6 @@
   "author": "Peter Squicciarini <stripedpajamas273@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "npm-registry-fetch": "^4.0.0"
+    "npm-registry-fetch": "^14.0.3"
   }
 }
